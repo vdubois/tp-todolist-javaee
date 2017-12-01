@@ -1,0 +1,28 @@
+= Application TODOLIST du cours JavaEE
+
+== Back
+
+Commandes à lancer pour démarrer le back
+
+[code, shell]
+----
+cd back
+mvn package
+mvn spring-boot:run
+----
+
+Le back est désormais déployé à l'URL http://localhost:8080
+
+== Front
+
+Commandes à lancer pour démarrer le front
+
+[code, shell]
+----
+cd front
+npm install -g gulp
+npm install
+gulp serve
+----
+
+L'application est désormais déployée à l'URL http://localhost:8081
